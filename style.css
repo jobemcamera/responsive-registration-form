@@ -22,6 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px;
+    background-color: rgb(17, 57, 109);
 }
 
 .form-image img {
@@ -35,3 +36,33 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.form-header {
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: blue;
+    margin: 0px auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
