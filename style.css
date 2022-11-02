@@ -90,9 +90,10 @@ body {
     width: 310px;
 }
 
-#wrongpassword{
+#wrongpassword {
     color: red;
     font-size: 14px;
+    padding-left: 10px;
     display: none;
 }
 
