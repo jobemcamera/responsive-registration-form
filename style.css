@@ -156,26 +156,28 @@ body {
     }
 }
 
+/*@media (max-width: 1030px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .form {
+        width: 100%;
+        padding: 3rem 3rem;
+    }
+}*/
+
+
 @media (max-width: 1030px) {
     .container {
-        width: 100%;
+        width: auto;
         height: auto;
+        padding-left: 3rem;
     }
 
     .form {
         width: 100%;
-        padding: 3rem 3rem;
-    }
-}
-
-@media (max-width: 735px) {
-    .container {
-        width: 70%;
-        height: auto;
-    }
-
-    .form {
-        width: 70%;
-        padding: 3rem 3rem;
+        padding-right: 6rem;
     }
 }
