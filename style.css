@@ -173,6 +173,7 @@ body {
     .container {
         width: auto;
         height: auto;
+        padding-top: 6rem;
         padding-left: 3rem;
     }
 
