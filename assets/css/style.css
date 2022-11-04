@@ -166,6 +166,10 @@ body {
         font-size: 28px;
     }
 
+    .form-header h1::after {
+        width: 65px;
+    }
+
     .login-button button {
         padding: 5px 10px;
         font-size: 16px;
