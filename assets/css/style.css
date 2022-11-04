@@ -160,8 +160,6 @@ body {
     .container {
         width: auto;
         height: auto;
-        padding-top: 6rem;
-        padding-left: 3rem;
     }
 
     .form-header {
@@ -175,12 +173,23 @@ body {
 
     .form {
         width: 100%;
-        padding-right: 6rem;
     }
 
     .input-box {
         margin-bottom: 5px;
         width: 100%;
+    }
+
+    .contact-input input {
+        float: left;
+        width: 13px;
+        height: 13px;
+    }
+
+    .contact-input label {
+        display: flex;
+        margin-top: 1px;
+        font-size: 14px;
     }
 
     .continue-button button {
