@@ -87,7 +87,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 18px;
-    width: 310px;
+    width: 45%;
 }
 
 .input-box input {
@@ -164,12 +164,30 @@ body {
         padding-left: 3rem;
     }
 
-    .form-header{
-        font-size: 32px;
+    .form-header {
+        font-size: 28px;
+    }
+
+    .login-button button {
+        padding: 5px 10px;
+        font-size: 16px;
     }
 
     .form {
         width: 100%;
         padding-right: 6rem;
+    }
+
+    .input-box {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .continue-button button {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 16px; 
+        font-weight: 400;   
+        padding: 0.5rem;
     }
 }
