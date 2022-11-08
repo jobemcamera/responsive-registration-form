@@ -1,11 +1,12 @@
-var password = document.getElementById("password")
-var confirmPassword = document.getElementById("confirmpassword")
-var confirmForm = document.getElementById("confirmform")
-var wrongPassword = document.getElementById("wrongpassword")
 var fullName = document.getElementById("fullname")
 var birth = document.getElementById("birth")
 var email = document.getElementById("email")
 var number = document.getElementById("number")
+var password = document.getElementById("password")
+var confirmPassword = document.getElementById("confirmpassword")
+var confirmForm = document.getElementById("confirmform")
+var wrongPassword = document.getElementById("wrongpassword")
+
 
 confirmForm.addEventListener("click", sucessForm)
 
@@ -24,7 +25,7 @@ function sucessForm() {
     }
 } 
 
-/* Função para que cria a máscara do telefone (xx)xxxxx-xxxx */
+/* Função que cria a máscara do telefone (xx)xxxxx-xxxx */
 function phoneMask(number) {
     if (number.value.length == 0) {
         number.value = '(' + number.value;

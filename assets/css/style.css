@@ -100,6 +100,18 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
 }
 
+input[type=date] {
+    font-size: 12px;
+    outline: 1;
+    font-family: 'roboto';
+    color: #8e8e8e;
+    text-transform: uppercase;
+}
+
+::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
 #wrongpassword {
     color: red;
     font-size: 14px;
